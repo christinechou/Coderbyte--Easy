@@ -1,9 +1,21 @@
 *********************************************************
+Longest Word
+
 Using the JavaScript language, have the function LongestWord(sen)
 take the sen parameter being passed and return the largest word in
 the string. If there are two or more words that are the same length,
 return the first word from the string with that length. Ignore
 punctuation and assume sen will not be empty.
+
+
+Before we can find the longest word, the given string needs to be
+stripped of any punctuation that does not include letters a-z and A-Z
+and spaces.  This means we need to remove any characters that fall
+outside of that.  These are the steps to solve the problem:
+  1) find and delete non alpha or space characters
+  2) separate words into an array
+  3) sort words by descending length
+  4) return first value of array which will be the longest word.
 *********************************************************
 
 
