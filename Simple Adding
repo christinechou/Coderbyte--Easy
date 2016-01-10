@@ -1,0 +1,28 @@
+*********************************************************
+Simple Adding
+
+Using the JavaScript language, have the function SimpleAdding(num)
+add up all the numbers from 1 to num. For the test cases, the parameter
+num will be any number from 1 to 1000.
+
+
+These are the steps to solve the problem:
+  1) for numbers 1 and below, will return 1.
+  2) for numbers 2 and above:
+    a) loop through numbers 2 through num and add to sum
+
+*********************************************************
+
+
+function SimpleAdding(num) {
+  if (num < 2)  return 1
+  
+  else {
+    var sum = 1
+    for (var i = 2; i <= num; i++) {
+      sum += i;
+    } return sum;
+  }
+  return num;
+
+}
