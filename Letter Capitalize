@@ -8,8 +8,8 @@ each word. Words will be separated by only one space.
 
 These are the steps to solve the problem:
   1) split words by space and put each word into array
-  2) for each element in array, capitalize the first letter and keep
-  the rest of the letters in words as is
+  2) for each element in array, capitalize the first letter and append
+  the rest of the letters in word
   3) stringify array, and separate each word by space
 *********************************************************
 
